@@ -11,16 +11,16 @@ else:
     total=maths+science+telugu+english+hindi+social
     percentage=(total/600)*100
 if percentage>=90:
- print("A+grade")
+    print("A+grade")
 elif percentage>=80:
- print("A grade")
+    print("A grade")
 elif percentage>=70:
- print("B grade")
+    print("B grade")
 elif percentage>=60:
- print("B+ grade")
+    print("B+ grade")
 elif percentage>=50:
- print("C grade")
+    print("C grade")
 else:
- print("D grade")
- print("percentage is:",percentage)
- print("result:passed")
+    print("D grade")
+    print("percentage is:",percentage)
+    print("result:passed")
